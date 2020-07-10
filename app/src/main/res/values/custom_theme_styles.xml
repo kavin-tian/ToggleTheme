@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- **************************下面是主题**************************-->
+
+    <style name="MarioTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- 隐藏Activity窗口的ActionBar -->
+        <item name="windowActionBar">false</item>
+        <!-- 隐藏Activity窗口的Title标题栏 -->
+        <item name="windowNoTitle">true</item>
+         
+        <!--Appbar背景色-->      
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <!--状态栏颜色-->
+        <!--<item name="colorPrimaryDark">#ff0000</item>-->
+        <!--控制各个控件被选中时的颜色-->      
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+
+    <!--日间相关属性集-->
+    <style name="MarioTheme.Day" parent="MarioTheme">
+        <!--状态栏颜色-->
+        <item name="colorPrimaryDark">#ff0000</item>
+        <!--app背景色-->
+        <item name="custom_attr_app_bg">@color/custom_color_app_bg_day</item>
+        <!--标题背景色-->
+        <item name="custom_attr_app_title_layout_bg">
+            @color/custom_color_app_title_layout_bg_day
+        </item>
+        <!--用户头像-->
+        <item name="custom_attr_user_photo_place_holder">
+            @drawable/custom_drawable_user_photo_place_holder_day
+        </item>
+        <!--用户昵称字体色-->
+        <item name="custom_attr_nickname_text_color">@color/custom_selector_text_day</item>
+       <!-- 用户头像尺寸-->
+        <item name="custom_attr_user_photo_dimen">@dimen/custom_attr_user_photo_dimen</item>
+    </style>
+
+    <!--夜间相关属性集-->
+    <style name="MarioTheme.Night" parent="MarioTheme">
+        <item name="colorPrimaryDark">#FF9F9F9F</item>
+        <item name="custom_attr_app_bg">@color/custom_color_app_bg_night</item>
+        <item name="custom_attr_app_title_layout_bg">
+            @color/custom_color_app_title_layout_bg_night
+        </item>
+        <item name="custom_attr_user_photo_place_holder">
+            @drawable/custom_drawable_user_photo_place_holder_night
+        </item>
+        <item name="custom_attr_nickname_text_color">@color/custom_selector_text_night</item>
+        <item name="custom_attr_user_photo_dimen">@dimen/custom_attr_user_photo_dimen</item>
+    </style>
+
+
+</resources>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- **************************下面是颜色**************************-->
+    <!-- 用户头像大小 -->
+    <dimen name="custom_attr_user_photo_dimen">72dp</dimen>
+
+</resources>
