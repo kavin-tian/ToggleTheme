@@ -6,8 +6,7 @@ import android.widget.Switch;
 
 /**
  * �ο�:https://www.jianshu.com/p/0cd03c878def
- *
- * ע������: ����������Ҫ���������ʹ�ø����������, �ڸ������¸�ֵ���Զ������Բ���ʹ��
+ *hahhahahhaha
  */
 public class MainActivity2 extends BaseActivity {
 
