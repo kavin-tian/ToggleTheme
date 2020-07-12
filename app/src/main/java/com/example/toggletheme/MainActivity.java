@@ -6,16 +6,18 @@ import android.widget.CompoundButton;
 import android.widget.Switch;
 
 /**
- * 参考:https://www.jianshu.com/p/0cd03c878def
+ * 锟轿匡拷:https://www.jianshu.com/p/0cd03c878def
  *
- * 注意事项: 必须引用需要的主题才能使用该主题的属性, 在该主题下赋值的自定义属性才能使用
+ * 注锟斤拷锟斤拷锟斤拷: 锟斤拷锟斤拷锟斤拷锟斤拷锟斤拷要锟斤拷锟斤拷锟斤拷锟斤拷锟绞癸拷酶锟斤拷锟斤拷锟斤拷锟斤拷锟斤拷, 锟节革拷锟斤拷锟斤拷锟铰革拷值锟斤拷锟皆讹拷锟斤拷锟斤拷锟皆诧拷锟斤拷使锟斤拷
  */
 public class MainActivity extends BaseActivity {
+
+    /*newBranch*/
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        //建议把设置主题放在BaseActivity里 , 设置主题必须在setContentView之前
+        //锟斤拷锟斤拷锟斤拷锟斤拷锟斤拷锟斤拷锟斤拷锟斤拷BaseActivity锟斤拷 , 锟斤拷锟斤拷锟斤拷锟斤拷锟斤拷锟斤拷锟絪etContentView之前
         setContentView(R.layout.activity_main);
 
         Switch toggle = findViewById(R.id.toggle);
